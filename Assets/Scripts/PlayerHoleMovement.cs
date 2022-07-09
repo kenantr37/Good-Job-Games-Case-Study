@@ -6,28 +6,43 @@ public class PlayerHoleMovement : MonoBehaviour
 {
     [SerializeField] float moveSpeed = .1f;
 
-    Vector3 firstPosition, secondPosition;
+    Vector3 firstTouchPosition, secondTouchPosition;
     Vector3 positionDifference;
+    Vector3 startPosition;
 
     GameManager gameManager;
 
     float firstVerticalSideBorderZMin = -23.415f;
     float firstVerticalSideBorderZMax = -15.698f;
+
+    public float MoveSpeed { get { return moveSpeed; } set { moveSpeed = value; } }
+
     void Awake()
     {
         gameManager = FindObjectOfType<GameManager>();
     }
-    public float MoveSpeed { get { return moveSpeed; } set { moveSpeed = value; } }
-
+    void Start()
+    {
+        startPosition = transform.position;
+    }
     void Update()
     {
-        if (!gameManager.IsFirstPartDone)
+        if (gameManager.IsPlayerOnFirstPart)
         {
-            MovePlayerHole();
+            MovePlayer();
             PlayerBorder(firstVerticalSideBorderZMin, firstVerticalSideBorderZMax);
         }
+        if (gameManager.IsPlayerOnSecondPart)
+        {
+            MovePlayer();
+            PlayerBorder(-3.76f, 3.821f);
+        }
+        if (gameManager.IsGameOver)
+        {
+            transform.position = startPosition;
+        }
     }
-    void MovePlayerHole()
+    void MovePlayer()
     {
         if (Input.touchCount > 0)
         {
@@ -35,17 +50,17 @@ public class PlayerHoleMovement : MonoBehaviour
 
             if (touch.phase == TouchPhase.Began)
             {
-                firstPosition.x = touch.position.x;
-                firstPosition.y = touch.position.y;
+                firstTouchPosition.x = touch.position.x;
+                firstTouchPosition.y = touch.position.y;
             }
             if (touch.phase == TouchPhase.Moved)
             {
-                secondPosition.x = touch.position.x;
-                secondPosition.y = touch.position.y;
-                positionDifference.x = secondPosition.x - firstPosition.x;
-                positionDifference.y = secondPosition.y - firstPosition.y;
+                secondTouchPosition.x = touch.position.x;
+                secondTouchPosition.y = touch.position.y;
+                positionDifference.x = secondTouchPosition.x - firstTouchPosition.x;
+                positionDifference.y = secondTouchPosition.y - firstTouchPosition.y;
 
-                if (positionDifference.x != firstPosition.x && positionDifference.y != firstPosition.y)
+                if (positionDifference.x != firstTouchPosition.x && positionDifference.y != firstTouchPosition.y)
                 {
                     float horizontalMove = Time.deltaTime * moveSpeed * positionDifference.x;
                     float verticalMove = Time.deltaTime * -moveSpeed * positionDifference.y;
@@ -54,8 +69,8 @@ public class PlayerHoleMovement : MonoBehaviour
             }
             if (touch.phase == TouchPhase.Ended)
             {
-                firstPosition = Vector3.zero;
-                secondPosition = Vector3.zero;
+                firstTouchPosition = Vector3.zero;
+                secondTouchPosition = Vector3.zero;
             }
         }
     }
