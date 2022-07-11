@@ -15,17 +15,19 @@ public class PlayerHoleMovement : MonoBehaviour
     Vector3 startPosition;
 
     GameManager gameManager;
-    Trap trap;
+    GameObject trap;
 
     float firstVerticalSideBorderZMin = -23.415f;
     float firstVerticalSideBorderZMax = -15.698f;
+
+    public int counter;
 
     public float MoveSpeed { get { return moveSpeed; } set { moveSpeed = value; } }
 
     void Awake()
     {
         gameManager = FindObjectOfType<GameManager>();
-        trap = FindObjectOfType<Trap>();
+        trap = GameObject.FindGameObjectWithTag("Trap");
     }
     void Start()
     {
@@ -87,12 +89,12 @@ public class PlayerHoleMovement : MonoBehaviour
     void PlayerBorder(float verticalSideMin, float verticalSideMax)
     {
         transform.position = new Vector3(Mathf.Clamp(transform.position.x, -2.23f, 2.23f),
-            0.402f, Mathf.Clamp(transform.position.z, verticalSideMin, verticalSideMax));
+            0.875f, Mathf.Clamp(transform.position.z, verticalSideMin, verticalSideMax));
     }
     void FinishFirstPartOfGame()
     {
         GameObject[] firstPartObstacles = GameObject.FindGameObjectsWithTag("FirstPartObstacle");
-        int counter = firstPartObstacles.Length - 1;
+        counter = firstPartObstacles.Length - 1;
 
         foreach (GameObject firstObstacle in firstPartObstacles)
         {
@@ -103,14 +105,14 @@ public class PlayerHoleMovement : MonoBehaviour
         }
         if (counter <= 0)
         {
-            Vector3 centerOfTheGame = new Vector3(0.03f, transform.position.y, transform.position.z);
+            trap.GetComponent<Trap>().enabled = false;
             trap.GetComponent<BoxCollider>().enabled = false;
+            trap.GetComponent<Trap>().GetComponent<Rigidbody>().isKinematic = true;
+
+            Vector3 centerOfTheGame = new Vector3(0.03f, transform.position.y, transform.position.z);
 
             door.transform.Translate(Vector3.down * Time.deltaTime * 1.2f);
             transform.position = Vector3.MoveTowards(transform.position, centerOfTheGame, Time.deltaTime * 1.2f);
-
-            trap.gameObject.GetComponent<Trap>().GetComponent<Rigidbody>().isKinematic = true;
-            trap.gameObject.GetComponent<Trap>().enabled = false;
 
             StartCoroutine(GoToSecondPart());
             cancelBorder = true;
@@ -118,6 +120,7 @@ public class PlayerHoleMovement : MonoBehaviour
     }
     IEnumerator GoToSecondPart()
     {
+        moveSpeed = 0;
         yield return new WaitForSeconds(2f);
 
         if (!reachedToWayPoint)
@@ -129,6 +132,7 @@ public class PlayerHoleMovement : MonoBehaviour
                 reachedToWayPoint = true;
                 gameManager.IsPlayerOnFirstPart = false;
                 gameManager.IsPlayerOnSecondPart = true;
+                moveSpeed = .1f;
             }
         }
     }
