@@ -8,6 +8,7 @@ public class PlayerHoleMovement : MonoBehaviour
     [SerializeField] GameObject wayPoint;
     [SerializeField] bool cancelBorder;
     [SerializeField] bool reachedToWayPoint;
+    [SerializeField] GameObject door;
 
     Vector3 firstTouchPosition, secondTouchPosition;
     Vector3 positionDifference;
@@ -102,19 +103,22 @@ public class PlayerHoleMovement : MonoBehaviour
         }
         if (counter <= 0)
         {
-            Vector3 centerOfTheGame = new Vector3(0.150000006f, transform.position.y, transform.position.z);
+            Vector3 centerOfTheGame = new Vector3(0.03f, transform.position.y, transform.position.z);
             trap.GetComponent<BoxCollider>().enabled = false;
-            transform.position = Vector3.MoveTowards(transform.position, centerOfTheGame, Time.deltaTime * 2f);
+
+            door.transform.Translate(Vector3.down * Time.deltaTime * 1.2f);
+            transform.position = Vector3.MoveTowards(transform.position, centerOfTheGame, Time.deltaTime * 1.2f);
 
             trap.gameObject.GetComponent<Trap>().GetComponent<Rigidbody>().isKinematic = true;
             trap.gameObject.GetComponent<Trap>().enabled = false;
+
             StartCoroutine(GoToSecondPart());
             cancelBorder = true;
         }
     }
     IEnumerator GoToSecondPart()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(2f);
 
         if (!reachedToWayPoint)
         {

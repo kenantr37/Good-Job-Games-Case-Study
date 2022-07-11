@@ -10,6 +10,7 @@ TagManager:
   - FirstPartObstacle
   - SecondPartObstacle
   - WayPoint
+  - IntervalObstacles
   layers:
   - Default
   - TransparentFX

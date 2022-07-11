@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Trap : MonoBehaviour
+public class IntervalSphere : MonoBehaviour
 {
     [SerializeField] GameObject centerOfHole, hole;
-    Rigidbody trapRb;
+    Rigidbody sphere;
     void Awake()
     {
-        trapRb = GetComponent<Rigidbody>();
+        sphere = GetComponent<Rigidbody>();
     }
     void Start()
     {
@@ -31,7 +31,7 @@ public class Trap : MonoBehaviour
         if (Vector3.Distance(transform.position, hole.transform.position) <= 1.1f)
         {
             transform.position = Vector3.MoveTowards(transform.position, centerOfHole.transform.position, Time.deltaTime * .8f);
-            trapRb.WakeUp();
+            sphere.WakeUp();
         }
     }
 }

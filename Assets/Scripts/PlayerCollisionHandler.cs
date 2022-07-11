@@ -17,21 +17,35 @@ public class PlayerCollisionHandler : MonoBehaviour
     }
     void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("FirstPartObstacle") || collision.gameObject.CompareTag("Trap"))
+        if (collision.gameObject.CompareTag("FirstPartObstacle") || collision.gameObject.CompareTag("SecondPartObstacle"))
         {
             collision.gameObject.GetComponent<BoxCollider>().enabled = false;
             meshCollider.enabled = false;
         }
         if (collision.gameObject.CompareTag("Trap"))
         {
+            collision.gameObject.GetComponent<BoxCollider>().enabled = false;
+            meshCollider.enabled = false;
             StartCoroutine(GameOverTimer());
+        }
+        if (collision.gameObject.CompareTag("IntervalObstacles"))
+        {
+            collision.gameObject.GetComponent<SphereCollider>().enabled = false;
+            meshCollider.enabled = false;
         }
     }
     void OnCollisionStay(Collision collision)
     {
-        if (collision.gameObject.CompareTag("FirstPartObstacle") || collision.gameObject.CompareTag("Trap"))
+        if (collision.gameObject.CompareTag("FirstPartObstacle") ||
+            collision.gameObject.CompareTag("SecondPartObstacle") || collision.gameObject.CompareTag("Trap") ||
+            collision.gameObject.CompareTag("IntervalObstacles"))
         {
             collision.gameObject.GetComponent<BoxCollider>().enabled = false;
+            meshCollider.enabled = false;
+        }
+        if (collision.gameObject.CompareTag("IntervalObstacles"))
+        {
+            collision.gameObject.GetComponent<SphereCollider>().enabled = false;
             meshCollider.enabled = false;
         }
     }
