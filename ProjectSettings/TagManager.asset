@@ -5,9 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
-  - Obstacle
   - Door
   - Trap
+  - FirstPartObstacle
+  - SecondPartObstacle
+  - WayPoint
   layers:
   - Default
   - TransparentFX

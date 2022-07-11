@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Cubes : MonoBehaviour
+public class Trap : MonoBehaviour
 {
     [SerializeField] GameObject centerOfHole, hole;
     Rigidbody cubeRb;

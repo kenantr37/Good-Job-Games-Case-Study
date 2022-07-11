@@ -5,12 +5,16 @@ using UnityEngine;
 public class PlayerHoleMovement : MonoBehaviour
 {
     [SerializeField] float moveSpeed = .1f;
+    [SerializeField] GameObject wayPoint;
+    [SerializeField] bool cancelBorder;
+    [SerializeField] bool reachedToWayPoint;
 
     Vector3 firstTouchPosition, secondTouchPosition;
     Vector3 positionDifference;
     Vector3 startPosition;
 
     GameManager gameManager;
+    Trap trap;
 
     float firstVerticalSideBorderZMin = -23.415f;
     float firstVerticalSideBorderZMax = -15.698f;
@@ -20,6 +24,7 @@ public class PlayerHoleMovement : MonoBehaviour
     void Awake()
     {
         gameManager = FindObjectOfType<GameManager>();
+        trap = FindObjectOfType<Trap>();
     }
     void Start()
     {
@@ -30,7 +35,11 @@ public class PlayerHoleMovement : MonoBehaviour
         if (gameManager.IsPlayerOnFirstPart)
         {
             MovePlayer();
-            PlayerBorder(firstVerticalSideBorderZMin, firstVerticalSideBorderZMax);
+            if (!cancelBorder)
+            {
+                PlayerBorder(firstVerticalSideBorderZMin, firstVerticalSideBorderZMax);
+            }
+            FinishFirstPartOfGame();
         }
         if (gameManager.IsPlayerOnSecondPart)
         {
@@ -77,6 +86,46 @@ public class PlayerHoleMovement : MonoBehaviour
     void PlayerBorder(float verticalSideMin, float verticalSideMax)
     {
         transform.position = new Vector3(Mathf.Clamp(transform.position.x, -2.23f, 2.23f),
-            .52f, Mathf.Clamp(transform.position.z, verticalSideMin, verticalSideMax));
+            0.402f, Mathf.Clamp(transform.position.z, verticalSideMin, verticalSideMax));
+    }
+    void FinishFirstPartOfGame()
+    {
+        GameObject[] firstPartObstacles = GameObject.FindGameObjectsWithTag("FirstPartObstacle");
+        int counter = firstPartObstacles.Length - 1;
+
+        foreach (GameObject firstObstacle in firstPartObstacles)
+        {
+            if (!firstObstacle.activeInHierarchy)
+            {
+                counter--;
+            }
+        }
+        if (counter <= 0)
+        {
+            Vector3 centerOfTheGame = new Vector3(0.150000006f, transform.position.y, transform.position.z);
+            trap.GetComponent<BoxCollider>().enabled = false;
+            transform.position = Vector3.MoveTowards(transform.position, centerOfTheGame, Time.deltaTime * 2f);
+
+            trap.gameObject.GetComponent<Trap>().GetComponent<Rigidbody>().isKinematic = true;
+            trap.gameObject.GetComponent<Trap>().enabled = false;
+            StartCoroutine(GoToSecondPart());
+            cancelBorder = true;
+        }
+    }
+    IEnumerator GoToSecondPart()
+    {
+        yield return new WaitForSeconds(1f);
+
+        if (!reachedToWayPoint)
+        {
+            transform.position = Vector3.MoveTowards(transform.position, wayPoint.transform.position, Time.deltaTime * 5f);
+
+            if (Vector3.Distance(transform.position, wayPoint.transform.position) <= .005f)
+            {
+                reachedToWayPoint = true;
+                gameManager.IsPlayerOnFirstPart = false;
+                gameManager.IsPlayerOnSecondPart = true;
+            }
+        }
     }
 }

@@ -17,7 +17,7 @@ public class PlayerCollisionHandler : MonoBehaviour
     }
     void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("Obstacle") || collision.gameObject.CompareTag("Trap"))
+        if (collision.gameObject.CompareTag("FirstPartObstacle") || collision.gameObject.CompareTag("Trap"))
         {
             collision.gameObject.GetComponent<BoxCollider>().enabled = false;
             meshCollider.enabled = false;
@@ -29,7 +29,7 @@ public class PlayerCollisionHandler : MonoBehaviour
     }
     void OnCollisionStay(Collision collision)
     {
-        if (collision.gameObject.CompareTag("Obstacle") || collision.gameObject.CompareTag("Trap"))
+        if (collision.gameObject.CompareTag("FirstPartObstacle") || collision.gameObject.CompareTag("Trap"))
         {
             collision.gameObject.GetComponent<BoxCollider>().enabled = false;
             meshCollider.enabled = false;
