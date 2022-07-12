@@ -11,6 +11,7 @@ TagManager:
   - SecondPartObstacle
   - WayPoint
   - IntervalObstacles
+  - HoleCenter
   layers:
   - Default
   - TransparentFX

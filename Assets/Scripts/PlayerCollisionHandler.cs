@@ -6,20 +6,14 @@ public class PlayerCollisionHandler : MonoBehaviour
 {
     MeshCollider meshCollider;
     GameManager gameManager;
-    ProgressBar progressBar;
 
-    int firstPartObstacles_amount;
     void Awake()
     {
         meshCollider = GetComponent<MeshCollider>();
         gameManager = FindObjectOfType<GameManager>();
-        progressBar = FindObjectOfType<ProgressBar>();
     }
     void Start()
     {
-        GameObject[] firstPartObstacles = GameObject.FindGameObjectsWithTag("FirstPartObstacle");
-        firstPartObstacles_amount = firstPartObstacles.Length;
-        progressBar.progressSlider.maxValue = firstPartObstacles_amount;
     }
     void Update()
     {
@@ -53,7 +47,6 @@ public class PlayerCollisionHandler : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("FirstPartObstacle"))
         {
-            progressBar.progressSlider.value += 1;
             collision.gameObject.GetComponent<BoxCollider>().enabled = false;
             meshCollider.enabled = false;
         }
@@ -78,12 +71,5 @@ public class PlayerCollisionHandler : MonoBehaviour
     {
         yield return new WaitForSeconds(.5f);
         gameManager.IsGameOver = true;
-    }
-    void OnCollisionExit(Collision collision)
-    {
-        if (collision.gameObject.CompareTag("FirstPartObstacle"))
-        {
-            progressBar.progressSlider.value += 1;
-        }
     }
 }

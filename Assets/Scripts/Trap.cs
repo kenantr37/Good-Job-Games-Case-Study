@@ -4,12 +4,9 @@ using UnityEngine;
 
 public class Trap : MonoBehaviour
 {
-    [SerializeField] GameObject centerOfHole, hole;
-    Rigidbody trapRb;
-    void Awake()
-    {
-        trapRb = GetComponent<Rigidbody>();
-    }
+    [SerializeField] GameObject cubeDestionation, hole;
+    [SerializeField] float speed;
+
     void Start()
     {
         Physics.gravity *= 1f;
@@ -28,10 +25,9 @@ public class Trap : MonoBehaviour
     }
     void MoveToCenter()
     {
-        if (Vector3.Distance(transform.position, hole.transform.position) <= 1.1f)
+        if (Vector3.Distance(transform.position, hole.transform.position) <= .9f)
         {
-            transform.position = Vector3.MoveTowards(transform.position, centerOfHole.transform.position, Time.deltaTime * .8f);
-            trapRb.WakeUp();
+            transform.position = Vector3.MoveTowards(transform.position, cubeDestionation.transform.position, Time.deltaTime * speed);
         }
     }
 }

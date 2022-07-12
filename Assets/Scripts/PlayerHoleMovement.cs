@@ -9,13 +9,14 @@ public class PlayerHoleMovement : MonoBehaviour
     [SerializeField] bool cancelBorder;
     [SerializeField] bool reachedToWayPoint;
     [SerializeField] GameObject door;
+    [SerializeField] int nextLevelChecker;
 
     Vector3 firstTouchPosition, secondTouchPosition;
     Vector3 positionDifference;
     Vector3 startPosition;
 
     GameManager gameManager;
-    GameObject trap;
+    GameObject[] traps;
 
     float firstVerticalSideBorderZMin = -23.415f;
     float firstVerticalSideBorderZMax = -15.698f;
@@ -27,7 +28,7 @@ public class PlayerHoleMovement : MonoBehaviour
     void Awake()
     {
         gameManager = FindObjectOfType<GameManager>();
-        trap = GameObject.FindGameObjectWithTag("Trap");
+        traps = GameObject.FindGameObjectsWithTag("Trap");
     }
     void Start()
     {
@@ -48,6 +49,7 @@ public class PlayerHoleMovement : MonoBehaviour
         {
             MovePlayer();
             PlayerBorder(-3.76f, 3.821f);
+            NextLevelGo();
         }
         if (gameManager.IsGameOver)
         {
@@ -105,10 +107,13 @@ public class PlayerHoleMovement : MonoBehaviour
         }
         if (counter <= 0)
         {
-            trap.GetComponent<Trap>().enabled = false;
-            trap.GetComponent<BoxCollider>().enabled = false;
-            trap.GetComponent<Trap>().GetComponent<Rigidbody>().isKinematic = true;
+            foreach (GameObject trap in traps)
+            {
+                trap.GetComponent<Trap>().enabled = false;
+                trap.GetComponent<BoxCollider>().enabled = false;
+                trap.GetComponent<Trap>().GetComponent<Rigidbody>().isKinematic = true;
 
+            }
             Vector3 centerOfTheGame = new Vector3(0.03f, transform.position.y, transform.position.z);
 
             door.transform.Translate(Vector3.down * Time.deltaTime * 1.2f);
@@ -133,7 +138,32 @@ public class PlayerHoleMovement : MonoBehaviour
                 gameManager.IsPlayerOnFirstPart = false;
                 gameManager.IsPlayerOnSecondPart = true;
                 moveSpeed = .1f;
+
+                foreach (GameObject trap in traps)
+                {
+                    trap.GetComponent<Trap>().enabled = true;
+                    trap.GetComponent<BoxCollider>().enabled = true;
+                    trap.GetComponent<Trap>().GetComponent<Rigidbody>().isKinematic = false;
+
+                }
             }
+        }
+    }
+    void NextLevelGo()
+    {
+        GameObject[] secondPartObstacles = GameObject.FindGameObjectsWithTag("SecondPartObstacle");
+        counter = secondPartObstacles.Length;
+
+        foreach (GameObject firstObstacle in secondPartObstacles)
+        {
+            if (!firstObstacle.activeInHierarchy)
+            {
+                counter--;
+            }
+        }
+        if (counter <= 0)
+        {
+            gameManager.NextLevelStart = true;
         }
     }
 }

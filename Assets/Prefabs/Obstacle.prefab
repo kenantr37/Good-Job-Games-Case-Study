@@ -112,8 +112,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2406403c701ddc1449de9b5f5be997c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  centerOfHole: {fileID: 0}
+  cubeDestination: {fileID: 0}
   hole: {fileID: 0}
+  speed: 3
 --- !u!65 &4947435238459323044
 BoxCollider:
   m_ObjectHideFlags: 0
