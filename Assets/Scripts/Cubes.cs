@@ -5,7 +5,7 @@ using UnityEngine;
 public class Cubes : MonoBehaviour
 {
     [SerializeField] GameObject cubeDestination, hole;
-    [SerializeField] float speed = 0.8f;
+    float speed = 4f;
 
     // PROGRESS BAR
     ProgressBar progressBar;
@@ -48,9 +48,13 @@ public class Cubes : MonoBehaviour
     }
     void MoveToCenter()
     {
-        if (Vector3.Distance(transform.position, hole.transform.position) <= .9f)
+        if (Vector3.Distance(transform.position, hole.transform.position) <= 1f)
         {
             transform.position = Vector3.MoveTowards(transform.position, cubeDestination.transform.position, Time.deltaTime * speed);
+            Vector3 rotationDirection = transform.position - hole.transform.position;
+            Quaternion rotation = Quaternion.LookRotation(rotationDirection, Vector3.up);
+            transform.rotation = Quaternion.Slerp(transform.rotation, rotation, speed * Time.deltaTime);
+
         }
     }
     void OnCollisionEnter(Collision collision)
@@ -58,10 +62,12 @@ public class Cubes : MonoBehaviour
         if (collision.gameObject.CompareTag("HoleCenter") && gameObject.CompareTag("FirstPartObstacle"))
         {
             progressBar.progressSlider.value += 1;
+            Handheld.Vibrate();
         }
         if (collision.gameObject.CompareTag("HoleCenter") && gameObject.CompareTag("SecondPartObstacle"))
         {
             secondProgressBar.secondProgressSlider.value += 1;
+            Handheld.Vibrate();
         }
     }
 }

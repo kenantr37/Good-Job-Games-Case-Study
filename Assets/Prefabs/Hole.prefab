@@ -104,6 +104,7 @@ MonoBehaviour:
   cancelBorder: 0
   reachedToWayPoint: 0
   door: {fileID: 0}
+  nextLevelChecker: 0
   counter: 0
 --- !u!114 &8807732733272194264
 MonoBehaviour:
@@ -174,7 +175,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2881582254791459125}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0, z: -0.0441}
+  m_LocalPosition: {x: 0, y: -0, z: -0.0583}
   m_LocalScale: {x: 0.02, y: 0.02, z: 0.1}
   m_Children: []
   m_Father: {fileID: 3433925361861798031}
@@ -271,7 +272,7 @@ Transform:
   m_GameObject: {fileID: 8022467923658687881}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.000101, y: -0, z: 0.00491}
-  m_LocalScale: {x: 0.019978797, y: 0.02, z: 0.0104139}
+  m_LocalScale: {x: 0.0195, y: 0.0195, z: 0.0104139}
   m_Children: []
   m_Father: {fileID: 3433925361861798031}
   m_RootOrder: 0

@@ -26617,8 +26617,32 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7037229954134023496, guid: ba507b0ce2e038d44b074c55bda8a572, type: 3}
+      propertyPath: m_TagString
+      value: Score
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 337431628895684757, guid: ba507b0ce2e038d44b074c55bda8a572, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ba507b0ce2e038d44b074c55bda8a572, type: 3}
+--- !u!1 &1800268089451348669 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7037229954134023496, guid: ba507b0ce2e038d44b074c55bda8a572, type: 3}
+  m_PrefabInstance: {fileID: 1800268089451348668}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1800268089451348670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1800268089451348669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd8ff59c630fac04586c296b162faf65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  increaseScore: 100
+  _increaseScore: 100
 --- !u!23 &2073033379890782666
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -40492,6 +40516,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4080154175519062856, guid: b996c0e371e726d429f3d36fe03385d2, type: 3}
+      propertyPath: m_ClearFlags
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4080154175519062856, guid: b996c0e371e726d429f3d36fe03385d2, type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0.45490196
+      objectReference: {fileID: 0}
+    - target: {fileID: 4080154175519062856, guid: b996c0e371e726d429f3d36fe03385d2, type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0.7314417
+      objectReference: {fileID: 0}
+    - target: {fileID: 4080154175519062856, guid: b996c0e371e726d429f3d36fe03385d2, type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0.8207547
+      objectReference: {fileID: 0}
     - target: {fileID: 4080154175519062858, guid: b996c0e371e726d429f3d36fe03385d2, type: 3}
       propertyPath: m_Name
       value: Main Camera

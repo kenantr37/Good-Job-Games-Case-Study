@@ -33,6 +33,7 @@ public class PlayerCollisionHandler : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("Trap"))
         {
+            Handheld.Vibrate();
             collision.gameObject.GetComponent<BoxCollider>().enabled = false;
             meshCollider.enabled = false;
             StartCoroutine(GameOverTimer());

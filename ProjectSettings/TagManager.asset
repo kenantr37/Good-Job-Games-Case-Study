@@ -12,6 +12,7 @@ TagManager:
   - WayPoint
   - IntervalObstacles
   - HoleCenter
+  - Score
   layers:
   - Default
   - TransparentFX
