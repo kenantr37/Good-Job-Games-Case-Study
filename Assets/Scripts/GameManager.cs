@@ -47,8 +47,8 @@ public class GameManager : MonoBehaviour
             }
             else
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
                 Score.increaseScore += 100;
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
         }
     }

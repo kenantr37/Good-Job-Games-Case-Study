@@ -185,7 +185,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &29743915
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -313,7 +312,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &39544508
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -441,7 +439,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &49348050
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -569,7 +566,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &51787381
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -697,7 +693,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &54067437
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -825,7 +820,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &68983302
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -953,7 +947,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &87609655
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1081,7 +1074,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &104796721
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1209,7 +1201,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &105221526
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1337,7 +1328,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &111020920
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1465,7 +1455,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &117549209
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1593,7 +1582,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &118971106
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1721,7 +1709,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &125057669
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1849,7 +1836,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &148738915
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1977,7 +1963,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &151077827
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2105,7 +2090,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &155677974
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2233,7 +2217,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &157877780
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2348,7 +2331,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestionation: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &160781748
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2489,7 +2471,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &186436469
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2617,7 +2598,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &189746626
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2750,7 +2730,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &194374833
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2878,7 +2857,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &208309541
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3006,7 +2984,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &210794965
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3134,7 +3111,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &220497355
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3357,7 +3333,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &271000034
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3485,7 +3460,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &279909925
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3613,7 +3587,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &285081141
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3741,7 +3714,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &300966698
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3856,7 +3828,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestionation: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &306548111
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3997,7 +3968,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &327792330
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4191,7 +4161,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &341609279
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4319,7 +4288,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &346523323
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4447,7 +4415,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &347152614
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4575,7 +4542,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &357693328
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4690,7 +4656,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestionation: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &364347308
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4831,7 +4796,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &372350733
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4959,7 +4923,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &375702845
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5087,7 +5050,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &381983425
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5215,7 +5177,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &383715516
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5343,7 +5304,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &389872596
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5471,7 +5431,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &390898631
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5599,7 +5558,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &417855499
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5727,7 +5685,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &426803653
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5855,7 +5812,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &427778625
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5983,7 +5939,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &429800211
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6111,7 +6066,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &433416182
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6239,7 +6193,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &436173163
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6367,7 +6320,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &440848373
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6525,7 +6477,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &474312621
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6653,7 +6604,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &500170699
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6781,7 +6731,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &532655125
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6909,7 +6858,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &537801984
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7037,7 +6985,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &542952226
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7165,7 +7112,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &546933850
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7293,7 +7239,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &567259328
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7421,7 +7366,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &580017774
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7549,7 +7493,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &595713987
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7677,7 +7620,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &599802962
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7805,7 +7747,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &620991702
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7933,7 +7874,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &621529823
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8048,7 +7988,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestionation: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &625031202
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8189,7 +8128,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &654327208
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8317,7 +8255,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &670734308
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8445,7 +8382,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &697989626
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8573,7 +8509,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &699702111
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8794,7 +8729,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &710219985
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8922,7 +8856,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &710300288
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9050,7 +8983,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &719318622
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9178,7 +9110,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &726495182
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9306,7 +9237,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &727779741
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9421,7 +9351,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestionation: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &750045852
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9562,7 +9491,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &754745044
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9690,7 +9618,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &756955261
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9818,7 +9745,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &764716554
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9946,7 +9872,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &768276306
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10074,7 +9999,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &776436932
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10202,7 +10126,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &784860750
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10330,7 +10253,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &791101170
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10458,7 +10380,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &791151754
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10586,7 +10507,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &797104508
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10714,7 +10634,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &799935256
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10842,7 +10761,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &819568734
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10970,7 +10888,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &823608351
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11098,7 +11015,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &824006596
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11226,7 +11142,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &827825375
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11354,7 +11269,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &828802639
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11482,7 +11396,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &856826043
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11610,7 +11523,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &857008075
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11738,7 +11650,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &860160715
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11866,7 +11777,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &884628186
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11994,7 +11904,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &908123324
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12122,7 +12031,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &908805671
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12250,7 +12158,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &913825391
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12378,7 +12285,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &928155408
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12506,7 +12412,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &945223948
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12634,7 +12539,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &988868346
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12762,7 +12666,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &990041116
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12890,7 +12793,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &990767724
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13018,7 +12920,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1017534711
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13146,7 +13047,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1020806495
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13274,7 +13174,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1026232188
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13402,7 +13301,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1035518570
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13530,7 +13428,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1038232042
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13658,7 +13555,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1050072802
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13786,7 +13682,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1058456730
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13946,7 +13841,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1101210042
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14074,7 +13968,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1132630887
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14202,7 +14095,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1139714338
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14330,7 +14222,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1149104012
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14458,7 +14349,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1175206475
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14586,7 +14476,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1178381622
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14714,7 +14603,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1225066507
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14842,7 +14730,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1225579487
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14957,7 +14844,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestionation: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1231265895
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15098,7 +14984,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1239065570
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15226,7 +15111,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1250599169
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15354,7 +15238,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1263578154
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15482,7 +15365,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1288304434
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15610,7 +15492,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1288672688
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15738,7 +15619,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1316045210
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15853,7 +15733,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestionation: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1325739194
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15994,7 +15873,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1328747124
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16122,7 +16000,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1330723077
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16250,7 +16127,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1342359666
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16378,7 +16254,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1343485716
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16506,7 +16381,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1377374028
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16639,7 +16513,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1378768934
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16767,7 +16640,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1383219413
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16895,7 +16767,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1394940265
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17023,7 +16894,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1407329212
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17151,7 +17021,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1418409738
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17279,7 +17148,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1423816246
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17407,7 +17275,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1424968548
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17535,7 +17402,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1425483688
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17663,7 +17529,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1434681847
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17791,7 +17656,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1461579514
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17919,7 +17783,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1467652905
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18047,7 +17910,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1468293738
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18175,7 +18037,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1478624091
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18303,7 +18164,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1490274470
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18431,7 +18291,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1505861114
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18559,7 +18418,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1509354409
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18687,7 +18545,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1516890381
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18815,7 +18672,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1541579994
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18943,7 +18799,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1542197649
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -19071,7 +18926,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1543654301
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -19186,7 +19040,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestionation: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1545298188
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -19327,7 +19180,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1570738911
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -19455,7 +19307,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1590155916
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -19583,7 +19434,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1599385748
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -19711,7 +19561,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1608218982
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -19839,7 +19688,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1611359129
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -19967,7 +19815,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1617675931
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -20095,7 +19942,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1633285624
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -20223,7 +20069,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1634321339
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -20351,7 +20196,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1638500068
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -20479,7 +20323,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1654367401
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -20607,7 +20450,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1662023255
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -20735,7 +20577,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1665488044
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -20863,7 +20704,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1686246003
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -20991,7 +20831,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1705430666
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -21119,7 +20958,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1724272659
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -21248,6 +21086,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4430758618133014869, guid: 6707bb500ebf6144aa1b703eaffe665a, type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4430758618133014869, guid: 6707bb500ebf6144aa1b703eaffe665a, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6707bb500ebf6144aa1b703eaffe665a, type: 3}
 --- !u!1 &1727075155
@@ -21312,7 +21158,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1727075159
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -21440,7 +21285,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1733710760
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -21568,7 +21412,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1734822300
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -21696,7 +21539,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1740254580
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -21824,7 +21666,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1748788638
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -21952,7 +21793,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1751686944
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -22080,7 +21920,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1758844759
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -22195,7 +22034,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestionation: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1769235148
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -22336,7 +22174,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1785745516
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -22464,7 +22301,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1793946712
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -22592,7 +22428,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1803507073
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -22720,7 +22555,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1808831553
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -22848,7 +22682,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1841872017
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -22976,7 +22809,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1842978808
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -23104,7 +22936,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1854483889
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -23232,7 +23063,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1902445287
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -23360,7 +23190,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1912528267
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -23488,7 +23317,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1927323233
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -23616,7 +23444,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1958443909
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -23744,7 +23571,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1970308762
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -23872,7 +23698,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1976222040
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -24000,7 +23825,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1976508140
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -24128,7 +23952,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1979306372
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -24256,7 +24079,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &1998173676
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -24384,7 +24206,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2005647967
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -24512,7 +24333,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2017979008
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -24640,7 +24460,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2018355453
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -24768,7 +24587,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2026176722
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -24896,7 +24714,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2051820544
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -25024,7 +24841,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2069542942
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -25152,7 +24968,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2083620052
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -25280,7 +25095,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2086809082
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -25395,7 +25209,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestionation: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2094399348
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -25536,7 +25349,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2105088336
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -25664,7 +25476,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2114335064
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -25792,7 +25603,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2138936354
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -26134,7 +25944,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!23 &1716005675867089050
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -26641,8 +26450,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd8ff59c630fac04586c296b162faf65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  increaseScore: 100
-  _increaseScore: 100
 --- !u!23 &2073033379890782666
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -26953,7 +26760,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362691208980095
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -27081,7 +26887,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362691227630399
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -27209,7 +27014,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362691239300367
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -27329,7 +27133,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362691257573806
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -27457,7 +27260,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362691260968902
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -27496,7 +27298,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362691321590791
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -27672,7 +27473,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362691322661253
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -27787,7 +27587,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362691331937772
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -27901,7 +27700,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362691336827227
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -28029,7 +27827,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362691371222587
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -28171,7 +27968,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362691378154364
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -28353,7 +28149,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362691403248550
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -28392,7 +28187,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362691427219545
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -28609,7 +28403,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362691445323926
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -28696,7 +28489,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362691465151733
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -28797,7 +28589,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362691469580451
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -28904,7 +28695,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362691474913417
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -29032,7 +28822,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362691554401257
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -29249,7 +29038,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362691579383102
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -29309,7 +29097,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362691582772523
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -29529,7 +29316,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!4 &2620362691633656928
 Transform:
   m_ObjectHideFlags: 0
@@ -29579,7 +29365,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362691633656940
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -29672,7 +29457,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362691670178809
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -29800,7 +29584,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362691684791161
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -30041,7 +29824,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!114 &2620362691730600664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30056,7 +29838,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362691730600665
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -30273,7 +30054,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362691752883950
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -30409,7 +30189,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362691760457279
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -30440,7 +30219,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362691768269346
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -30657,7 +30435,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362691798633934
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -30793,7 +30570,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362691799376519
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -30859,7 +30635,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362691821347596
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -30952,7 +30727,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362691831209098
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -31080,7 +30854,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362691833720634
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -31305,7 +31078,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362691919067255
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -31384,7 +31156,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362691964036325
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -31499,7 +31270,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362691993410716
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -31613,7 +31383,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692038212899
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -31817,7 +31586,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692050300575
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -31945,7 +31713,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692111776455
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -32065,7 +31832,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692120878982
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -32125,7 +31891,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692129557555
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -32232,7 +31997,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692149810930
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -32360,7 +32124,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692161762713
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -32601,7 +32364,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!135 &2620362692202881696
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -32664,7 +32426,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692202881709
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -32833,7 +32594,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692222996198
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -32969,7 +32729,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692251684471
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -33021,7 +32780,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692296349043
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -33217,7 +32975,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692297353782
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -33304,7 +33061,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692321903173
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -33384,7 +33140,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692329589891
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -33560,7 +33315,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692332691269
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -33729,7 +33483,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692340366326
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -33768,7 +33521,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692347280121
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -33931,7 +33683,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692354529748
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -34121,7 +33872,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692364426359
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -34241,7 +33991,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692385235430
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -34328,7 +34077,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692429367125
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -34497,7 +34245,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692433149678
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -34625,7 +34372,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692477580718
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -34777,7 +34523,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!135 &2620362692529553936
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -34840,7 +34585,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692529553949
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -34920,7 +34664,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692560245586
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -35083,7 +34826,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692562895500
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -35176,7 +34918,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692598310770
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -35352,7 +35093,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692614686357
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -35521,7 +35261,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692625738118
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -35649,7 +35388,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692654194734
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -35911,7 +35649,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692682242678
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -35950,7 +35687,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692702059850
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -36126,7 +35862,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692707964565
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -36206,7 +35941,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692716401546
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -36423,7 +36157,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692724418134
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -36510,7 +36243,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692755826157
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -36590,7 +36322,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692779041890
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -36807,7 +36538,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692808560702
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -36846,7 +36576,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692822332097
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -37071,7 +36800,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692824978511
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -37123,7 +36851,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692829757499
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -37319,7 +37046,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692847101430
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -37471,7 +37197,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692874658888
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -37599,7 +37324,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!114 &2620362692903498960
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37614,7 +37338,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692903498961
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -37855,7 +37578,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!114 &2620362692933440449
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37870,7 +37592,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692933440450
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -37998,7 +37719,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692936607121
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -38174,7 +37894,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692944373941
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -38343,7 +38062,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692969370814
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -38382,7 +38100,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692973061394
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -38599,7 +38316,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692982900414
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -38751,7 +38467,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!135 &2620362692986083208
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -38814,7 +38529,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692986083221
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -38894,7 +38608,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362692995045381
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -39119,7 +38832,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362693018338639
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -39247,7 +38959,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362693050102327
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -39299,7 +39010,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362693078711683
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -39406,7 +39116,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362693117201754
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -39623,7 +39332,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362693166018710
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -39775,7 +39483,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!4 &2620362693224160024
 Transform:
   m_ObjectHideFlags: 0
@@ -39825,7 +39532,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362693224160036
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -39939,7 +39645,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362693233700027
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -40046,7 +39751,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!54 &2620362693233870601
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -40287,7 +39991,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!1 &2631248246792757334
 GameObject:
   m_ObjectHideFlags: 0
@@ -41072,7 +40775,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!23 &5928851841249792542
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -41173,7 +40875,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!4 &5928851841431792005
 Transform:
   m_ObjectHideFlags: 0
@@ -41302,7 +41003,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestination: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!23 &5928851841945501446
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -41768,7 +41468,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestionation: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!1 &7931153497571195197
 GameObject:
   m_ObjectHideFlags: 0
@@ -42096,7 +41795,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeDestionation: {fileID: 193223883}
   hole: {fileID: 1377965319}
-  speed: 3
 --- !u!1 &8455144889160445194
 GameObject:
   m_ObjectHideFlags: 0

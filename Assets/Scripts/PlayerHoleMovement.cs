@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerHoleMovement : MonoBehaviour
 {
-    [SerializeField] float moveSpeed = .1f;
+    float moveSpeed = .03f;
     [SerializeField] GameObject wayPoint;
     [SerializeField] bool cancelBorder;
     [SerializeField] bool reachedToWayPoint;
@@ -76,8 +76,8 @@ public class PlayerHoleMovement : MonoBehaviour
 
                 if (positionDifference.x != firstTouchPosition.x && positionDifference.y != firstTouchPosition.y)
                 {
-                    float horizontalMove = Time.deltaTime * moveSpeed * positionDifference.x;
-                    float verticalMove = Time.deltaTime * -moveSpeed * positionDifference.y;
+                    float horizontalMove = positionDifference.x * moveSpeed * Time.deltaTime;
+                    float verticalMove = positionDifference.y * -moveSpeed * Time.deltaTime;
                     transform.Translate(horizontalMove, verticalMove, 0);
                 }
             }
@@ -137,7 +137,7 @@ public class PlayerHoleMovement : MonoBehaviour
                 reachedToWayPoint = true;
                 gameManager.IsPlayerOnFirstPart = false;
                 gameManager.IsPlayerOnSecondPart = true;
-                moveSpeed = .1f;
+                moveSpeed = .03f;
 
                 foreach (GameObject trap in traps)
                 {
